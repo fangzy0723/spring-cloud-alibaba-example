@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-alibaba-nacos-discovery-client" />
+        <module name="spring-cloud-alibaba-nacos-discovery-client-feign" />
         <module name="spring-cloud-alibaba-nacos-discovery-client-resttemplate" />
         <module name="spring-cloud-alibaba-nacos-discovery-server" />
       </profile>
@@ -15,6 +16,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-cloud-alibaba-nacos-discovery-client" options="-parameters" />
+      <module name="spring-cloud-alibaba-nacos-discovery-client-feign" options="-parameters" />
       <module name="spring-cloud-alibaba-nacos-discovery-client-resttemplate" options="-parameters" />
       <module name="spring-cloud-alibaba-nacos-discovery-server" options="-parameters" />
     </option>

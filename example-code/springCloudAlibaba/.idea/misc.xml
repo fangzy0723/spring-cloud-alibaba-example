@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-alibaba-nacos-discovery-server/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-alibaba-nacos-discovery-client/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-alibaba-nacos-discovery-client-resttemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-alibaba-nacos-discovery-client-feign/pom.xml" />
       </list>
     </option>
   </component>
