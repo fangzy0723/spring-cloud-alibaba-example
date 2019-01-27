@@ -8,10 +8,10 @@ import org.springframework.web.client.RestTemplate;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class SpringCloudAlibabaNacosDiscoveryClientApplication {
+public class NacosDiscoveryClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringCloudAlibabaNacosDiscoveryClientApplication.class, args);
+        SpringApplication.run(NacosDiscoveryClientApplication.class, args);
     }
 
     @Bean
