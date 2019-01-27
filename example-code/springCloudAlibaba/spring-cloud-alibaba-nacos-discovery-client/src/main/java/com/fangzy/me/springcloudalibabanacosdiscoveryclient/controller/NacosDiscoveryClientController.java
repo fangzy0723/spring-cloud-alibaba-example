@@ -28,6 +28,7 @@ public class NacosDiscoveryClientController {
     @GetMapping("/test")
     public String hello(@RequestParam String name){
         logger.info("消费者请求参数：{}",name );
+        //通过LoadBalancerClient获取服务实例，具有负载功能的
         ServiceInstance serviceInstance = loadBalancerClient.choose("spring-cloud-alibaba-nacos-discovery-server");
         String url = serviceInstance.getUri() + "/hello?name=" + name;
         logger.info("请求接口地址：{}",url);
