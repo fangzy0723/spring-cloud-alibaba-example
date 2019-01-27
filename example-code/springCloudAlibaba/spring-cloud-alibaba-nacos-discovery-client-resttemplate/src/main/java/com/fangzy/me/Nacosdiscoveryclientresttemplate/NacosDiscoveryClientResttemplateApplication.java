@@ -9,10 +9,10 @@ import org.springframework.web.client.RestTemplate;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class ClientResttemplateApplication {
+public class NacosDiscoveryClientResttemplateApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ClientResttemplateApplication.class, args);
+        SpringApplication.run(NacosDiscoveryClientResttemplateApplication.class, args);
     }
 
     @Bean
