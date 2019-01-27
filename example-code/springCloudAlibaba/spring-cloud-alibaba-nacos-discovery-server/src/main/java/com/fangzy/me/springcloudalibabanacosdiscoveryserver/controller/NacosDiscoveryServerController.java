@@ -17,7 +17,7 @@ public class NacosDiscoveryServerController {
 
     @GetMapping("/hello")
     public String hello(@RequestParam String name){
-        logger.info("请求参数：{}",name );
+        logger.info("提供者请求参数：{}",name );
         return "hello:"+name;
     }
 }
